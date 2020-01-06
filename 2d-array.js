@@ -4,19 +4,35 @@
  */
 
  /**
-  * Makeing 6 x 6 array
+  * Declale and create array of given dimention
   */
+  function makeArrayOfDimention(dimention){
+    let arr = new Array(dimention);
+    for(let i=0 ; i<= arr.length-1; i++){
+        arr[i] = new Array(dimention);
+    }
+    return arr;
+  } // end of makeArrayOfDimention
 
-  var arr = new Array(6);
-  for(let i=0 ; i<= arr.length-1; i++){
-      arr[i] = new Array(6);
+  /**
+   * Inserting data into array
+   */
+  function insertRandomDataIntoArray(arr){
+    for(let i=0; i<= arr.length-1; i++){
+        for(let j=0; j<= arr.length-1; j++){
+          arr[i][j] = Math.round(Math.random()*1);
+        }
+    }
+    return arr;
   }
 
-  for(let i=0; i<= arr.length-1; i++){
-      for(let j=0; j<=i; j++){
-        arr[i][j] = Math.random();
-      }
-  }
+  var arr = makeArrayOfDimention(6);
+  var hrGlassArr = makeArrayOfDimention(3);
+  var arr = insertRandomDataIntoArray(arr);
   
-  console.log(arr);
+console.log(arr);
+
+
+  
+  
   
