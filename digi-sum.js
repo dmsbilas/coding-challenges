@@ -7,5 +7,6 @@ var digiSum = function (digit) {
     }
     return sum;
 };
+//Getting input from command line
 var cmdArg = process.argv.slice(2);
 console.log(digiSum(cmdArg[0]));
