@@ -1,0 +1,28 @@
+{
+  "name": "coding-challenges",
+  "version": "1.0.0",
+  "description": "Interview coding challenges",
+  "main": "2d-array.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmsbilas/coding-challenges.git"
+  },
+  "keywords": [
+    "Interview",
+    "coding",
+    "challenges",
+    "Javascript"
+  ],
+  "author": "Bilas Siddiq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmsbilas/coding-challenges/issues"
+  },
+  "homepage": "https://github.com/dmsbilas/coding-challenges#readme",
+  "dependencies": {
+    "typescript": "^4.0.2"
+  }
+}
